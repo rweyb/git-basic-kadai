@@ -1,0 +1,35 @@
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> git init git_challenge
+Initialized empty Git repository in C:/Users/User/OneDrive/
+繝・せ繧ｯ繝医ャ繝・git_challenge/git_challenge/.git/
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge>  cd git_challenge
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> echo "Hell,World!" > hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/User/OneDrive/繝・せ繧ｯ繝医ャ繝・git_challenge/git_challenge/.git/
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> git add hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) eb842e9] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> git log --oneline
+2979bb9 (HEAD -> main) 日本語訳を追記
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> git log --oneline
+2979bb9 (HEAD -> main) 日本語訳を追記
+eb842e9 hello_world.txtを追加
+
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> git add hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> git commit -m "hello_world.txtに日本語メッセージを追加"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge\git_challenge> git log --oneline
+2979bb9 (HEAD -> main) 日本語訳を追記
+eb842e9 hello_world.txtを追加
